@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enigma</title>
+        <link rel="stylesheet" href="style.css" >
+        <style>
+           body{
+            background-color: black;
+           }
+           nav{
+            background-color: azure;
+            height: 35px;
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            margin-bottom: 15px;
+           }
+           nav h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+            font-size: 25px;
+            color: black;
+            float: left;
+            margin-top: -2px;
+            margin-left: 9px;
+            margin-right: 0px;
+           }
+           nav #navigations {
+
+            align-items: center;
+            margin-left: 40%;
+            margin-top: 5px;
+
+
+           }
+           nav #navigations a{
+            margin-left: 10px;
+            text-decoration: none;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            font-weight: lighter;
+           }
+           nav #navigations a:hover{
+            background-color: black;
+            color: azure;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            height: 100%;
+            width: 60px;
+            text-align: center;
+
+           }
+           h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 85px;
+            margin-left: 35%;
+            color: azure;
+            margin-bottom: 30px;
+            margin-top: 0px;
+
+           }
+           #dashboard {
+            width: 60%;
+            height: 470px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            float: left;
+
+           }
+           #string {
+            height: 300px;
+                width: 300px;
+                background-color: black;
+                border: 1px solid azure;
+                border-radius: 10px;
+                outline: none;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                overflow: scroll;
+                margin-top: 20px;
+                float: left;
+                color: azure;
+           }
+           input::placeholder {
+            text-align: center;
+           }
+           #display {
+            height: 300px;
+                width: 300px;
+                background-color: black;
+                border: 1px solid azure;
+                border-radius: 2%;
+                outline: none;
+                
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                overflow: scroll;
+                margin-top: 20px;
+                color: azure;
+                margin-left: 10px;
+           }
+           #btn {
+                height: 40px;
+                width: 623px;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: lighter;
+                color: black;
+                text-align: center;
+                margin-left: 0%;
+                margin-top: 10px;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                background-color: azure;
+                cursor: pointer;
+
+
+            }
+            #text {
+                height: 340px;
+                width: 39%;
+                background-color: transparent;
+                color: azure;
+                margin-left: 55%;
+                border-radius: 10px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 18px;
+                font-weight: lighter;
+                
+                margin-top: 50px;
+                border: 1px solid azure;
+                padding-right: 3%;
+                padding-top: 3%;
+                
+                
+
+            }
+          
+          #profile {
+            height: 150px;
+            width: 100%;
+            border: 1px solid azure;
+            margin-top: 100px;
+            border-radius: 10px;
+            text-align: center;
+
+          }
+          
+          #profile a {
+            color: azure;
+            font-size: 100px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+          }
+          textarea {
+  overflow: hidden;
+  resize: none; /* Prevents the resizing of the textarea */
+}
+textarea::placeholder {
+            text-align: center;
+            
+            padding-top: 48%;
+           }
+@media (max-width : 410px) {
+    #container nav h2 {
+        text-align: center;
+        margin-left: 40%;
+        
+        
+    }
+    #container nav img {
+        margin-right: 60%;
+        margin-top: -50px;
+        margin-left: 43%;
+
+    }
+    #container nav a {
+        margin-left: 100%;
+    }
+    #container h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-left: -5%;
+    }
+    #dashboard form input {
+        float: none;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #dashboard {
+        float: none;
+    }
+    #dashboard button {
+        width: 200px;
+        align-items: center;
+        margin-left: 30%;
+        margin-top: 40px;
+    }
+    #dashboard textarea {
+        float: none;
+    }
+    #text {
+        width: 300px;
+        margin-top: 300px;
+        margin-left: -0%;
+        height: 600px;
+        padding: 2%;
+    }
+    #profile  {
+        width: 300px;
+        padding-top: 20%;
+
+
+    }
+    #profile a{
+        font-size: 25px;
+
+    }
+
+}
+nav img {
+            height: 30px;
+            border-radius: 50%;
+            float: left;
+            margin-left: -53%;
+            margin-top: -3px;
+           }
+
+        
+        </style>
+        
+        </head>
+        <body>
+            <div id="container">
+                <nav><h2>Enigma</h2><div id="navigations"><img src="images/a logo in circle shape with a capital E in white color and a black background.png" alt="logo" ><a href="#">Home</a>  <a href="#">About</a> <a href="#">Contact</a></div></nav>
+                <h1>Enigma</h1>
+                <div id="dashboard">
+                    <form id="content">
+                <input type="text" id="string" spellcheck="false" placeholder="Enter your message..." maxlength="200" required>
+                <textarea type="text" id="display" placeholder="cipher here..." readonly></textarea>
+                <button id="btn" type="submit">Cipher</button>
+                </form>
+
+                </div>
+                <div id="text"><h4>Enigma Project: Unraveling the Mystery of Code and Cipher
+
+                    Inspired by the iconic Enigma machine showcased in The Imitation Game, this project brings the allure of encryption and decoding to a modern digital platform. The Enigma Project is designed to convert any simple string message into a complex, secret-coded string, making it unreadable without the right key. With just one pass through the system, messages transform into coded texts, and a second pass effortlessly decrypts them back to the original message. Our aim is to explore the art and science of cryptography, highlighting the brilliance behind historical encryption and its modern applications in data security.</h4></div>
+                
+
+
+            </div>
+            
+            <div id="profile">
+                <a href="codeBreak.html"><--Dicipher--></a>
+            </div>
+
+
+
+
+
+
+
+
+            <script src="index.js">
+
+            </script>
+        </body> 
