@@ -47,7 +47,7 @@ function gibberishAlgo(words,letters) {
 
     for(var j = 0; j<words.length; j++) {
         let characters = words[j];
-        for(var k = characters.length - 1; k>=0 ; k--) {
+        while (characters.length > 0) {
             
             letters.push(characters.slice(-1));
             characters = characters.slice(0,-1);
